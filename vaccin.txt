@@ -1,0 +1,30 @@
+vaccin/
+ ├── src/
+ │    └── main/
+ │         ├── java/
+ │         │    └── com/
+ │         │         └── sometri/
+ │         │              └── vaccin/
+ │         │                   ├── MainActivity.java
+ │         │                   ├── RegisterChildActivity.java
+ │         │                   ├── RecordVaccinationActivity.java
+ │         │                   ├── RecordVaccineActivity.java
+ │         │                   ├── ViewRecordsActivity.java
+ │         │                   ├── VaccinationRecordAdapter.java
+ │         │                   ├── models/
+ │         │                   │    ├── Child.java
+ │         │                   │    ├── Vaccine.java
+ │         │                   │    └── VaccinationRecord.java
+ │         │                   └── database/
+ │         │                        └── DatabaseHelper.java
+ │         └── res/
+ │              ├── layout/
+ │              │    ├── activity_main.xml
+ │              │    ├── activity_register_child.xml
+ │              │    ├── activity_record_vaccination.xml
+ │              │    ├── activity_record_vaccine.xml
+ │              │    ├── activity_view_records.xml
+ │              │    └── item_vaccination_record.xml
+ │              └── values/
+ │                   └── strings.xml
+ └── AndroidManifest.xml

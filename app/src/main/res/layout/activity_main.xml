@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mr. Oeng Sometri's Children Yellow Book"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnRegisterChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Child"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnRecordVaccine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Vaccine"
+        android:layout_below="@id/btnRegisterChild"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnRecordVaccination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Vaccination"
+        android:layout_below="@id/btnRecordVaccine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnViewRecords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Records"
+        android:layout_below="@id/btnRecordVaccination"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
